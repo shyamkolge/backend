@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "description": "a backend Project",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-     "dev" : "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/shyamkolge/backend.git"
+    "dev": "nodemon src/server.js"
   },
   "author": "Shyam Kolge",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shyamkolge/backend/issues"
-  },
-  "homepage": "https://github.com/shyamkolge/backend#readme"
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
